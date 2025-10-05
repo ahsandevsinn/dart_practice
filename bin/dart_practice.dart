@@ -3,7 +3,5 @@ import 'package:dart_practice/variables/variables.dart';
 
 void main(List<String> arguments) {
   print('Hello World Dart');
-    print(arguments);        // prints the list of arguments
-  print(arguments.length); 
   Variables().display();
 }
