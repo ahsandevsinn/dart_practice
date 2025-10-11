@@ -40,15 +40,18 @@ class PracticeOne {
 // a
 // multiline comment''');
 // Demonstrate type inference in Dart by declaring variables without specifying types.
-var age = 20;
-var height = 5.5;
-var isMarried = false;
-var name = "Ahsan";
-print(age);
-print(height);
-print(isMarried);
-print(name);
-
+// var age = 20;
+// var height = 5.5;
+// var isMarried = false;
+// var name = "Ahsan";
+// print(age);
+// print(height);
+// print(isMarried);
+// print(name);
+// Write a program to print “Welcome to Dart Programming” five times using for loop.
+for (var i = 0;i < 5 ; i++ ) {
+  print("Welcome to Dart Programming");
+}
 
   }
   
