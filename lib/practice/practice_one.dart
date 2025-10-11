@@ -31,14 +31,23 @@ class PracticeOne {
 // const dateTimeOne = DateTime.now();
 // final is runtime enviroment and const is a compile time constant 
 // Print a multi-line message using triple quotes (''' or """).
-print("""This
-is 
-a
-multiline comment""");
-print('''This
-is 
-a
-multiline comment''');
+// print("""This
+// is 
+// a
+// multiline comment""");
+// print('''This
+// is 
+// a
+// multiline comment''');
+// Demonstrate type inference in Dart by declaring variables without specifying types.
+var age = 20;
+var height = 5.5;
+var isMarried = false;
+var name = "Ahsan";
+print(age);
+print(height);
+print(isMarried);
+print(name);
 
 
   }
