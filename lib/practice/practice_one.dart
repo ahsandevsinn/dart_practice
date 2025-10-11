@@ -53,7 +53,14 @@ class PracticeOne {
 //   print("Welcome to Dart Programming");
 // }
 // Print the result of 10 ~/ 3 and explain what the operator does.
-print(10~/3);
+// print(10~/3);
+// Variables Practice
+// Declare integer variables for length and width and calculate the area of a rectangle.
+int length = 4;
+int width = 6;
+int area = length * width;
+print(area);
+
   }
   
 }
