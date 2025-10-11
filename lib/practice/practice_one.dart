@@ -30,6 +30,15 @@ class PracticeOne {
 // final dateTIme = DateTime.now();
 // const dateTimeOne = DateTime.now();
 // final is runtime enviroment and const is a compile time constant 
+// Print a multi-line message using triple quotes (''' or """).
+print("""This
+is 
+a
+multiline comment""");
+print('''This
+is 
+a
+multiline comment''');
 
 
   }
