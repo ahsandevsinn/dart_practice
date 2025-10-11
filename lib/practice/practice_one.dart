@@ -49,10 +49,11 @@ class PracticeOne {
 // print(isMarried);
 // print(name);
 // Write a program to print “Welcome to Dart Programming” five times using for loop.
-for (var i = 0;i < 5 ; i++ ) {
-  print("Welcome to Dart Programming");
-}
-
+// for (var i = 0;i < 5 ; i++ ) {
+//   print("Welcome to Dart Programming");
+// }
+// Print the result of 10 ~/ 3 and explain what the operator does.
+print(10~/3);
   }
   
 }
