@@ -19,9 +19,18 @@ class PracticeOne {
 // int modules = a%b;
 // print(product);
 // Use string interpolation to display your name and favorite hobby in a sentence.
-String name = "Ahsan Khan";
-String hobby = "Books Reading";
-print("My name is $name and $hobby favorite hobby in a sentence "  );
+// String name = "Ahsan Khan";
+// String hobby = "Books Reading";
+// print("My name is $name and $hobby favorite hobby in a sentence "  );
+// Declare a variable using var, assign a value, and print its type.
+// var a;
+// a = "Ahsan";
+// print(a);
+// Use final and const variables and explain their difference in code comments.
+// final dateTIme = DateTime.now();
+// const dateTimeOne = DateTime.now();
+// final is runtime enviroment and const is a compile time constant 
+
 
   }
   
