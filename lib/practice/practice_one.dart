@@ -121,8 +121,16 @@ class PracticeOne {
     // String lastName = "Khan";
     // print(firstName+ " " + lastName);
     // Create a program that converts minutes into seconds.
-    int minutes = 10;
-    int seconds = minutes * 60;
-    print("seconds $seconds");
+    // int minutes = 10;
+    // int seconds = minutes * 60;
+    // print("seconds $seconds");
+    // Write a program to check whether a number is even or odd.
+    int a = 51;
+
+    if (a % 2 == 0) {
+      print("even");
+    } else {
+      print("odd");
+    }
   }
 }
