@@ -147,9 +147,17 @@ class PracticeOne {
   // int? age = null;
   // print(age ?? 10);
   // Create a class Person with a nullable field String? city; and print it safely using null-aware access.
-   Person p = Person();
-  p.city = "Karachi";
-  print(p.city ?? "Lahore");
+  //  Person p = Person();
+  // p.city = "Karachi";
+  // print(p.city ?? "Lahore");
+// Declare a nullable integer, assign a value later, and perform arithmetic only when it’s not null.
+int age;
+age = 18;
+print(age+age);
+print(age-age);
+print(age*age);
+print(age/age);
+
 
   }
 }
