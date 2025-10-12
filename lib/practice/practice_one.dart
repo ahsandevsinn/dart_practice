@@ -100,15 +100,21 @@ class PracticeOne {
 // double avergae = (a+b+c)/3;
 // print(avergae);
 // Take two numbers and print which one is greater using an if statement.
-    print("Please enter first number");
-    String? firstNum = stdin.readLineSync();
-    print("Please enter second number");
-    String? secNum = stdin.readLineSync();
+    // print("Please enter first number");
+    // String? firstNum = stdin.readLineSync();
+    // print("Please enter second number");
+    // String? secNum = stdin.readLineSync();
 
-    if (int.parse(firstNum!) > int.parse(secNum!)) {
-      print("first number is greater than second ");
-    } else {
-      print("second number is greater");
-    }
+    // if (int.parse(firstNum!) > int.parse(secNum!)) {
+    //   print("first number is greater than second ");
+    // } else {
+    //   print("second number is greater");
+    // }
+    // Write a program to calculate simple interest. (Formula: SI = (P * T * R) / 100)
+    int P = 10;
+    int T = 20;
+    int R = 30;
+    double SI = (P*T*R)/100;
+    print("SI is $SI");
   }
 }
