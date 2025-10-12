@@ -159,13 +159,23 @@ class PracticeOne {
 // print(age/age);
 
 // Combine two nullable variables and print a message if either is null.
-   int? a = null;
-   int? b = null;
-   if (a == null || b == null) {
-    print("One or both values are null");
-  } else {
-    print("Both values are not null");
-  }
+  //  int? a = null;
+  //  int? b = null;
+  //  if (a == null || b == null) {
+  //   print("One or both values are null");
+  // } else {
+  //   print("Both values are not null");
+  // }
+  // Demonstrate how late variables differ from nullable variables.
+  // late variables value assign later and nullable variable value or null or value
+  late String name;
+  name = "Ahsan";
+  print("Late variable: $name");
+
+ 
+  String? city;
+  city = null;
+  print("Nullable variable: $city");
   }
 }
 
