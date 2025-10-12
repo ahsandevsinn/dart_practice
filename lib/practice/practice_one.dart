@@ -125,12 +125,15 @@ class PracticeOne {
     // int seconds = minutes * 60;
     // print("seconds $seconds");
     // Write a program to check whether a number is even or odd.
-    int a = 51;
+    // int a = 51;
 
-    if (a % 2 == 0) {
-      print("even");
-    } else {
-      print("odd");
-    }
+    // if (a % 2 == 0) {
+    //   print("even");
+    // } else {
+    //   print("odd");
+    // }
+    // Declare a nullable String? name; and print a default value if it’s null.
+    String? name;
+    print(name ?? "Ahsan");
   }
 }
