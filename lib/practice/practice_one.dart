@@ -66,15 +66,31 @@ class PracticeOne {
 //  print(f);
 // Swap two numbers without using a third variable.
 // approach swap two numbers using arthimetic operators
+// int a = 10;
+// int b = 5; 
+// a = a+b; // 15
+// b= a-b; // 15 - 5 = 10
+// a = a-b;  // 15 - 10 = 5;
+//   // b = a;
+//   // a =b;
+//   print(a);
+//   print(b);
+// Create one variable each of type: int, double, String, bool, List, and Map. Print all.
 int a = 10;
-int b = 5; 
-a = a+b; // 15
-b= a-b; // 15 - 5 = 10
-a = a-b;  // 15 - 10 = 5;
-  // b = a;
-  // a =b;
-  print(a);
-  print(b);
+double b = 20.0;
+String c = "Ak";
+bool d = true;
+List e = ["1,2"];
+Map f = {
+  "name": "Ahsan",
+  "age" : 20,
+};
+print(a);
+print(b);
+print(c);
+print(d);
+print(e);
+print(f);
 
   }
   
