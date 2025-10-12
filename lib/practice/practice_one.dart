@@ -133,7 +133,16 @@ class PracticeOne {
     //   print("odd");
     // }
     // Declare a nullable String? name; and print a default value if it’s null.
-    String? name;
-    print(name ?? "Ahsan");
+    // String? name;
+    // print(name ?? "Ahsan");
+    // Use the late keyword for a variable initialized later in the program.
+  //   late String name;
+  //   name = "Ahsan";
+  // print(name);
+  // Declare a nullable variable and use the null assertion operator (!) to print its value.
+  // int? age;
+  // age = 10;
+  // print(age!);
+
   }
 }
