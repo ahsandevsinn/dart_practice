@@ -117,8 +117,12 @@ class PracticeOne {
     // double SI = (P*T*R)/100;
     // print("SI is $SI");
     // Declare a variable fullName by combining first and last name using string interpolation.
-    String firstName = "Ahsan";
-    String lastName = "Khan";
-    print(firstName+ " " + lastName);
+    // String firstName = "Ahsan";
+    // String lastName = "Khan";
+    // print(firstName+ " " + lastName);
+    // Create a program that converts minutes into seconds.
+    int minutes = 10;
+    int seconds = minutes * 60;
+    print("seconds $seconds");
   }
 }
