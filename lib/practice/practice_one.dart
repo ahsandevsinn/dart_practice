@@ -56,10 +56,14 @@ class PracticeOne {
 // print(10~/3);
 // Variables Practice
 // Declare integer variables for length and width and calculate the area of a rectangle.
-int length = 4;
-int width = 6;
-int area = length * width;
-print(area);
+// int length = 4;
+// int width = 6;
+// int area = length * width;
+// print(area);
+// Convert temperature from Celsius to Fahrenheit.
+ double cel = 32.0;
+ double f = (cel*1.8)+32;
+ print(f);
 
   }
   
