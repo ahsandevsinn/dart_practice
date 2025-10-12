@@ -151,14 +151,21 @@ class PracticeOne {
   // p.city = "Karachi";
   // print(p.city ?? "Lahore");
 // Declare a nullable integer, assign a value later, and perform arithmetic only when it’s not null.
-int age;
-age = 18;
-print(age+age);
-print(age-age);
-print(age*age);
-print(age/age);
+// int age;
+// age = 18;
+// print(age+age);
+// print(age-age);
+// print(age*age);
+// print(age/age);
 
-
+// Combine two nullable variables and print a message if either is null.
+   int? a = null;
+   int? b = null;
+   if (a == null || b == null) {
+    print("One or both values are null");
+  } else {
+    print("Both values are not null");
+  }
   }
 }
 
