@@ -143,6 +143,9 @@ class PracticeOne {
   // int? age;
   // age = 10;
   // print(age!);
+  // Use the null-aware operator (??) to assign a default value to a variable.
+  int? age = null;
+  print(age ?? 10);
 
   }
 }
