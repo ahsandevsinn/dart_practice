@@ -1,11 +1,13 @@
+import 'dart:io';
+
 class PracticeOne {
- static practiceOne(){
-  // Write a program to print “Hello, Dart!” on the screen.
-  // print("Hello, Dart!");
-  // Print your name, age, and country using print() statements.
-  // print("Ahsan Khan");
-  // print("20");
-  // print("Pakistan");
+  static practiceOne() {
+    // Write a program to print “Hello, Dart!” on the screen.
+    // print("Hello, Dart!");
+    // Print your name, age, and country using print() statements.
+    // print("Ahsan Khan");
+    // print("20");
+    // print("Pakistan");
 
 // Create a simple calculator that prints the sum, difference, product, and quotient of two numbers.
 // int a = 10;
@@ -29,14 +31,14 @@ class PracticeOne {
 // Use final and const variables and explain their difference in code comments.
 // final dateTIme = DateTime.now();
 // const dateTimeOne = DateTime.now();
-// final is runtime enviroment and const is a compile time constant 
+// final is runtime enviroment and const is a compile time constant
 // Print a multi-line message using triple quotes (''' or """).
 // print("""This
-// is 
+// is
 // a
 // multiline comment""");
 // print('''This
-// is 
+// is
 // a
 // multiline comment''');
 // Demonstrate type inference in Dart by declaring variables without specifying types.
@@ -67,7 +69,7 @@ class PracticeOne {
 // Swap two numbers without using a third variable.
 // approach swap two numbers using arthimetic operators
 // int a = 10;
-// int b = 5; 
+// int b = 5;
 // a = a+b; // 15
 // b= a-b; // 15 - 5 = 10
 // a = a-b;  // 15 - 10 = 5;
@@ -76,22 +78,37 @@ class PracticeOne {
 //   print(a);
 //   print(b);
 // Create one variable each of type: int, double, String, bool, List, and Map. Print all.
-int a = 10;
-double b = 20.0;
-String c = "Ak";
-bool d = true;
-List e = ["1,2"];
-Map f = {
-  "name": "Ahsan",
-  "age" : 20,
-};
-print(a);
-print(b);
-print(c);
-print(d);
-print(e);
-print(f);
+// int a = 10;
+// double b = 20.0;
+// String c = "Ak";
+// bool d = true;
+// List e = ["1,2"];
+// Map f = {
+//   "name": "Ahsan",
+//   "age" : 20,
+// };
+// print(a);
+// print(b);
+// print(c);
+// print(d);
+// print(e);
+// print(f);
+// Calculate the average of three numbers and print the result.
+// int a = 10;
+// int b = 5;
+// int c = 7;
+// double avergae = (a+b+c)/3;
+// print(avergae);
+// Take two numbers and print which one is greater using an if statement.
+    print("Please enter first number");
+    String? firstNum = stdin.readLineSync();
+    print("Please enter second number");
+    String? secNum = stdin.readLineSync();
 
+    if (int.parse(firstNum!) > int.parse(secNum!)) {
+      print("first number is greater than second ");
+    } else {
+      print("second number is greater");
+    }
   }
-  
 }
