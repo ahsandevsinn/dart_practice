@@ -168,14 +168,19 @@ class PracticeOne {
   // }
   // Demonstrate how late variables differ from nullable variables.
   // late variables value assign later and nullable variable value or null or value
-  late String name;
-  name = "Ahsan";
-  print("Late variable: $name");
+  // late String name;
+  // name = "Ahsan";
+  // print("Late variable: $name");
 
  
-  String? city;
-  city = null;
-  print("Nullable variable: $city");
+  // String? city;
+  // city = null;
+  // print("Nullable variable: $city");
+
+  // Write a short program showing how null safety prevents runtime errors in Dart.
+  String? name;
+  name = null;
+ print(name ?? "Ahsan");
   }
 }
 
