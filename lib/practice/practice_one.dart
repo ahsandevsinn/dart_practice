@@ -61,9 +61,20 @@ class PracticeOne {
 // int area = length * width;
 // print(area);
 // Convert temperature from Celsius to Fahrenheit.
- double cel = 32.0;
- double f = (cel*1.8)+32;
- print(f);
+//  double cel = 32.0;
+//  double f = (cel*1.8)+32;
+//  print(f);
+// Swap two numbers without using a third variable.
+// approach swap two numbers using arthimetic operators
+int a = 10;
+int b = 5; 
+a = a+b; // 15
+b= a-b; // 15 - 5 = 10
+a = a-b;  // 15 - 10 = 5;
+  // b = a;
+  // a =b;
+  print(a);
+  print(b);
 
   }
   
