@@ -144,8 +144,19 @@ class PracticeOne {
   // age = 10;
   // print(age!);
   // Use the null-aware operator (??) to assign a default value to a variable.
-  int? age = null;
-  print(age ?? 10);
+  // int? age = null;
+  // print(age ?? 10);
+  // Create a class Person with a nullable field String? city; and print it safely using null-aware access.
+   Person p = Person();
+  p.city = "Karachi";
+  print(p.city ?? "Lahore");
 
   }
+}
+
+
+class Person {
+  String? city;
+
+  
 }
