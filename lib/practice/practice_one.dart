@@ -111,10 +111,14 @@ class PracticeOne {
     //   print("second number is greater");
     // }
     // Write a program to calculate simple interest. (Formula: SI = (P * T * R) / 100)
-    int P = 10;
-    int T = 20;
-    int R = 30;
-    double SI = (P*T*R)/100;
-    print("SI is $SI");
+    // int P = 10;
+    // int T = 20;
+    // int R = 30;
+    // double SI = (P*T*R)/100;
+    // print("SI is $SI");
+    // Declare a variable fullName by combining first and last name using string interpolation.
+    String firstName = "Ahsan";
+    String lastName = "Khan";
+    print(firstName+ " " + lastName);
   }
 }
