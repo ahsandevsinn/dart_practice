@@ -24,11 +24,14 @@ class Operators {
     // print(c!=d);
 
     // Type Test Operator
-    String name = "Ahsan";
-    int age = 20;
-    print(name is String);
-    print(age is Int);
-    print(age is! Int);
+    // String name = "Ahsan";
+    // int age = 20;
+    // print(name is String);
+    // print(age is Int);
+    // print(age is! Int);
+    dynamic name = "Ahsan";
+    print(name as String);
+    
     
 
   }
