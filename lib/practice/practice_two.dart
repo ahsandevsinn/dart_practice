@@ -7,5 +7,9 @@ class PracticeTwo {
   // print(a+b);
   // Subtract one number from another.
   print(a-b);
+  // Multiply two double values.
+  print(a*b);
+  
+
  } 
 }
