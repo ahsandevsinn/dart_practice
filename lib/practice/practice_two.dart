@@ -27,6 +27,9 @@ print("dart" == "flutter");
 // ;}
 
 
+// Use a ternary (?:) operator to print “Even” or “Odd”.
+a%2==0 ?print("Even"):print("odd");
+
 
  } 
 }
