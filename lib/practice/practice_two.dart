@@ -3,7 +3,7 @@ class PracticeTwo {
   // print("Hello Two");
   // Add two integers and print the result.
   int a = 10;
-  int b = 20;
+  int b = 10;
   // print(a+b);
   // Subtract one number from another.
   print(a-b);
@@ -21,6 +21,11 @@ class PracticeTwo {
   print(a>b);
 // Use == to compare two strings (“dart” and “flutter”).
 print("dart" == "flutter");
+// Use a logical && to check if both conditions are true.
+// if (a == 10 && b == 10) {
+//   print("Value Matched")
+// ;}
+
 
 
  } 
