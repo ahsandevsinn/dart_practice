@@ -29,8 +29,11 @@ class Operators {
     // print(name is String);
     // print(age is Int);
     // print(age is! Int);
-    dynamic name = "Ahsan";
-    print(name as String);
+    // dynamic name = "Ahsan";
+    // print(name as String);
+    int a = 4;
+    print(a);
+    a += 4;
     
     
 
