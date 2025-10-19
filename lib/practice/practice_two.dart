@@ -9,7 +9,9 @@ class PracticeTwo {
   print(a-b);
   // Multiply two double values.
   print(a*b);
-  
+  // Divide two numbers and print the quotient.
+  print(a/b);
+
 
  } 
 }
