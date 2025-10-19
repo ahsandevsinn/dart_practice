@@ -11,6 +11,10 @@ class PracticeTwo {
   print(a*b);
   // Divide two numbers and print the quotient.
   print(a/b);
+  // Use integer division (~/) to find how many times 7 fits into 22.
+  int c = 7;
+  int d = 22;
+  print(d~/c);
 
 
  } 
