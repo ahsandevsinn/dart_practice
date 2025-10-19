@@ -15,6 +15,12 @@ class PracticeTwo {
   int c = 7;
   int d = 22;
   print(d~/c);
+  // Find the remainder using %.
+  print(a%b);
+  // Check if a number is greater than another using >.
+  print(a>b);
+// Use == to compare two strings (“dart” and “flutter”).
+print("dart" == "flutter");
 
 
  } 
