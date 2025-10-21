@@ -40,10 +40,19 @@ class PracticeTwo {
 
 
 // Compare two ages using relational operators (>, <, ==).
-int a = 34;
-int b = 2;
-print(a == b);
-print(a>b);
-print(a<b);
+// int a = 34;
+// int b = 2;
+// print(a == b);
+// print(a>b);
+// print(a<b);
+// Use is to check if a variable is of type String.
+int age = 30;
+if (age is int) {
+  print("Age is int");
+}else{
+  print("Age is String");
+
+}
+
   }
 }
