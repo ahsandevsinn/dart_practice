@@ -46,11 +46,23 @@ class PracticeTwo {
 // print(a>b);
 // print(a<b);
 // Use is to check if a variable is of type String.
-int age = 30;
-if (age is int) {
-  print("Age is int");
+// int age = 30;
+// if (age is int) {
+//   print("Age is int");
+// }else{
+//   print("Age is String");
+
+// }
+// IF / ELSE Practice Problems
+// ✅ Check if a number is positive, negative, or zero.
+int num = 0;
+if (num>0) {
+  print("Positive");
+}else if(num<0){
+  print("Negative");
+
 }else{
-  print("Age is String");
+  print("Zero");
 
 }
 
