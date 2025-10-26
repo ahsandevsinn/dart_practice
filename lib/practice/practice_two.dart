@@ -55,14 +55,23 @@ class PracticeTwo {
 // }
 // IF / ELSE Practice Problems
 // ✅ Check if a number is positive, negative, or zero.
-int num = 0;
-if (num>0) {
-  print("Positive");
-}else if(num<0){
-  print("Negative");
+// int num = 0;
+// if (num>0) {
+//   print("Positive");
+// }else if(num<0){
+//   print("Negative");
 
+// }else{
+//   print("Zero");
+
+// }
+
+// Check if a person is eligible to vote (age ≥ 18).
+int age = 0;
+if (age>=18) {
+  print("Vote");
 }else{
-  print("Zero");
+  print("Not Vote");
 
 }
 
