@@ -84,15 +84,24 @@ class PracticeTwo {
     // }
 
     // Find the largest of three numbers.
-        int num = 3;
-    int num2 = 18;
-    int num3 = 78;
-     if (num > num2&& num > num3) {
-      print("Num is greater");
-    } else if(num2 > num && num2 > num3){
-      print("Num 2 is greater");
-    }else if (num3 > num && num3 > num2){
-      print("Num 3 is greater");
+    //     int num = 3;
+    // int num2 = 18;
+    // int num3 = 78;
+    //  if (num > num2&& num > num3) {
+    //   print("Num is greater");
+    // } else if(num2 > num && num2 > num3){
+    //   print("Num 2 is greater");
+    // }else if (num3 > num && num3 > num2){
+    //   print("Num 3 is greater");
+
+    // }
+    // Check if a number is even or odd.
+    int a  = 36;
+    if (a%2==0) {
+      print("Even");
+      
+    }else{
+      print("ODD");
 
     }
   }
