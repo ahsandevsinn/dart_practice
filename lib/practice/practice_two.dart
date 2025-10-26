@@ -74,13 +74,26 @@ class PracticeTwo {
 
 // }
 //  Find the largest of two numbers.
-    int num = 93;
-    int num2 = 78;
+    // int num = 93;
+    // int num2 = 78;
 
-    if (num > num2) {
+    // if (num > num2) {
+    //   print("Num is greater");
+    // } else {
+    //   print("Num 2 is greater");
+    // }
+
+    // Find the largest of three numbers.
+        int num = 3;
+    int num2 = 18;
+    int num3 = 78;
+     if (num > num2&& num > num3) {
       print("Num is greater");
-    } else {
+    } else if(num2 > num && num2 > num3){
       print("Num 2 is greater");
+    }else if (num3 > num && num3 > num2){
+      print("Num 3 is greater");
+
     }
   }
 }
