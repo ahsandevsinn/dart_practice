@@ -38,7 +38,6 @@ class PracticeTwo {
     // int? a;
     // print(a ?? 4);
 
-
 // Compare two ages using relational operators (>, <, ==).
 // int a = 34;
 // int b = 2;
@@ -67,13 +66,21 @@ class PracticeTwo {
 // }
 
 // Check if a person is eligible to vote (age ≥ 18).
-int age = 0;
-if (age>=18) {
-  print("Vote");
-}else{
-  print("Not Vote");
+// int age = 0;
+// if (age>=18) {
+//   print("Vote");
+// }else{
+//   print("Not Vote");
 
-}
+// }
+//  Find the largest of two numbers.
+    int num = 93;
+    int num2 = 78;
 
+    if (num > num2) {
+      print("Num is greater");
+    } else {
+      print("Num 2 is greater");
+    }
   }
 }
