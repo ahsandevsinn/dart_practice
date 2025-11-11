@@ -94,7 +94,7 @@ class PracticeTwo {
     // }else if (num3 > num && num3 > num2){
     //   print("Num 3 is greater");
 
-    // }
+    // }=
     // Check if a number is even or odd.
     int a  = 36;
     if (a%2==0) {
