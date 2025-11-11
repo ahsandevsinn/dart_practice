@@ -16,13 +16,20 @@ class Basics{
   // print(dateTime);
 
   // Arithmetic Operators
-  int a = 10; int b = 20;
-  print(a+b);
-  print(a-b);
-  print(a/b);
-  print(a%b);
-  print(a*b);
-  print(a~/b);
+  // int a = 10; int b = 20;
+  // print(a+b);
+  // print(a-b);
+  // print(a/b);
+  // print(a%b);
+  // print(a*b);
+  // print(a~/b);
+
+  // Comparison Operator
+  int a = 10 ;  int b = 20;
+  print(a ==b);
+  print(a!=b);
+  print(a>b);
+  print(a<b);
   
   }
 }
