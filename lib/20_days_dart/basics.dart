@@ -25,11 +25,15 @@ class Basics{
   // print(a~/b);
 
   // Comparison Operator
-  int a = 10 ;  int b = 20;
-  print(a ==b);
-  print(a!=b);
-  print(a>b);
-  print(a<b);
+  // int a = 10 ;  int b = 20;
+  // print(a ==b);
+  // print(a!=b);
+  // print(a>b);
+  // print(a<b);
+
+
+
+
   
   }
 }
