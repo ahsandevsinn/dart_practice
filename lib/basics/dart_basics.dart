@@ -15,7 +15,7 @@ class DartBasics {
 
 
   // What is a variable? How is it different from a constant?
-  // variable is a named of storage where user can store data in constant value fixed but we can change variable value 
+  // variable is named of storage memory location where data store 
 
   }
   
