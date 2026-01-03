@@ -12,5 +12,6 @@ void main(List<String> arguments) {
   // PracticeOne.practiceOne();
   // Operators.operators();
   // PracticeTwo.practiceTwo();
-  DartBasics.dartBasics();
+  // DartBasics.dartBasics();
+  Operators.operators();
 }
