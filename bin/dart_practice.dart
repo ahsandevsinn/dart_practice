@@ -14,6 +14,6 @@ void main(List<String> arguments) {
   // Operators.operators();
   // PracticeTwo.practiceTwo();
   // DartBasics.dartBasics();
-  Operators.operators();
-  // TypeChecking.typeChecking();
+  // Operators.operators();
+  TypeChecking.typeChecking();
 }
