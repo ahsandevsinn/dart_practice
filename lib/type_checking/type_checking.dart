@@ -27,6 +27,22 @@ Object value = "Flutter";
     } else {
       print(value);
     }
-// answer
+// dynamic numValue = 50;
+// double converted = numValue as double;
+// print(converted);
+// Q: Output kya hoga? Runtime error hoga ya nahi?
+// runtime error
+
+Object data = 100;
+if (data is String) {
+  String text = data as String;
+  print(text);
+} else {
+  print("Not a String");
+
+}
+// Q: Output kya hoga?
+// Not a String
+
   }
 }
