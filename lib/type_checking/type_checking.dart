@@ -50,6 +50,15 @@ if (value is String) {
   print(value.length);
 }
 // Q: Kya value as String likhna zaroori hai?
-// iska answer length ayi gi 4 length
+// iska answer length ayi gi 4 length\
+
+
+// 5️⃣ Question 5
+dynamic jsonData = {"name": "Arham", "age": 30};
+Map<String, String> map = jsonData as Map<String, String>;
+print(map["name"]);
+
+// Q: Ye safe hai ya runtime error hoga?
+//error hoga kue ki 
   }
 }
