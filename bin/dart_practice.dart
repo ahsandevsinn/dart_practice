@@ -6,6 +6,7 @@ import 'package:dart_practice/input/input.dart';
 import 'package:dart_practice/null_safety/null_safety.dart';
 import 'package:dart_practice/practice/practice_one.dart';
 import 'package:dart_practice/practice/practice_two.dart';
+import 'package:dart_practice/type_checking/type_checking.dart';
 import 'package:dart_practice/variables/variables.dart';
 
 void main(List<String> arguments) {
@@ -13,5 +14,6 @@ void main(List<String> arguments) {
   // Operators.operators();
   // PracticeTwo.practiceTwo();
   // DartBasics.dartBasics();
-  Operators.operators();
+  // Operators.operators();
+  TypeChecking.typeChecking();
 }
