@@ -4,6 +4,7 @@ import 'package:dart_practice/basics/dart_basics.dart';
 import 'package:dart_practice/conditional_flow/conditional_flow.dart';
 import 'package:dart_practice/dart_practice.dart' as dart_practice;
 import 'package:dart_practice/input/input.dart';
+import 'package:dart_practice/loops/loops.dart';
 import 'package:dart_practice/null_safety/null_safety.dart';
 import 'package:dart_practice/practice/practice_one.dart';
 import 'package:dart_practice/practice/practice_two.dart';
@@ -17,5 +18,6 @@ void main(List<String> arguments) {
   // DartBasics.dartBasics();
   // Operators.operators();
   // TypeChecking.typeChecking();
-  ConditionalFlow.conditionalFLow();
+  // ConditionalFlow.conditionalFLow();
+  Loops.loop();
 }
