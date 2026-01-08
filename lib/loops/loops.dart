@@ -5,8 +5,13 @@ class Loops {
     // }
 
     // counting 0 to 100
-    for(int i =0;i <= 100;i++){
-      print(i);
+    // for(int i =0;i <= 100;i++){
+    //   print(i);
+    // }
+
+    List<String> fruits = ["Apple","Mango","Orange"];
+    for(var fruit in fruits){
+      print(fruit);
     }
   }
   
