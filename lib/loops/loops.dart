@@ -9,10 +9,17 @@ class Loops {
     //   print(i);
     // }
 
-    List<String> fruits = ["Apple","Mango","Orange"];
-    for(var fruit in fruits){
-      print(fruit);
+    // List<String> fruits = ["Apple","Mango","Orange"];
+    // for(var fruit in fruits){
+    //   print(fruit);
+    // }
+    // counting 0 to 5 using for in loop
+    List<int> num = [0,1,2,3,4,5];
+    for(var nums in num){
+      print(nums);
+
     }
+
   }
   
 }
