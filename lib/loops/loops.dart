@@ -1,5 +1,5 @@
 class Loops {
-  static loop(){
+  static loop() {
     // for(int i = 0;i < 10; i++){
     //   print("HEllo");
     // }
@@ -14,12 +14,9 @@ class Loops {
     //   print(fruit);
     // }
     // counting 0 to 5 using for in loop
-    List<int> num = [0,1,2,3,4,5];
-    for(var nums in num){
+    List<int> num = [0, 1, 2, 3, 4, 5];
+    for (var nums in num) {
       print(nums);
-
     }
-
   }
-  
 }
