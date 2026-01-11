@@ -1,5 +1,6 @@
 import 'package:dart_practice/20_days_dart/basics.dart';
 import 'package:dart_practice/Operators/operators.dart';
+import 'package:dart_practice/arithimetic_operators/arithimetic_operators.dart';
 import 'package:dart_practice/basics/dart_basics.dart';
 import 'package:dart_practice/conditional_flow/conditional_flow.dart';
 import 'package:dart_practice/dart_practice.dart' as dart_practice;
@@ -15,9 +16,10 @@ void main(List<String> arguments) {
   // PracticeOne.practiceOne();
   // Operators.operators();
   // PracticeTwo.practiceTwo();
-  DartBasics.dartBasics();
+  // DartBasics.dartBasics();
   // Operators.operators();
   // TypeChecking.typeChecking();
   // ConditionalFlow.conditionalFLow();
   // Loops.loop();
+  ArithimeticOperators.arithimeticOperators();
 }
