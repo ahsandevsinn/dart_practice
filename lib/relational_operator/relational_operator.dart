@@ -1,0 +1,14 @@
+class RelationalOperator {
+  static relationOperator(){
+    int a = 5;
+    int b = 10;
+    print(a>b);
+    print(a<b);
+    print(a==b);
+    print(a!=b);
+    print(a>=b);
+    print(a<=b);
+
+  }
+  
+}
