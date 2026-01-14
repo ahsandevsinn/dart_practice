@@ -19,7 +19,7 @@ void main(List<String> arguments) {
   // PracticeOne.practiceOne();
   // Operators.operators();
   // PracticeTwo.practiceTwo();
-  // DartBasics.dartBasics();
+  DartBasics.dartBasics();
   // Operators.operators();
   // TypeChecking.typeChecking();
   // ConditionalFlow.conditionalFLow();
@@ -27,5 +27,5 @@ void main(List<String> arguments) {
   // ArithimeticOperators.arithimeticOperators();
   // RelationalOperator.relationOperator();
   // LogicalOperator.logicalOperator();
-  InputCalculator.inputCalculator();
+  // InputCalculator.inputCalculator();
 }
