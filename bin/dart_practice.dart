@@ -15,17 +15,7 @@ import 'package:dart_practice/relational_operator/relational_operator.dart';
 import 'package:dart_practice/type_checking/type_checking.dart';
 import 'package:dart_practice/variables/variables.dart';
 
-void main(List<String> arguments) {
-  // PracticeOne.practiceOne();
-  // Operators.operators();
-  // PracticeTwo.practiceTwo();
-  DartBasics.dartBasics();
-  // Operators.operators();
-  // TypeChecking.typeChecking();
-  // ConditionalFlow.conditionalFLow();
-  // Loops.loop();
-  // ArithimeticOperators.arithimeticOperators();
-  // RelationalOperator.relationOperator();
-  // LogicalOperator.logicalOperator();
-  // InputCalculator.inputCalculator();
+void main(List<String> arguments){
+  print("Hello World $arguments");
+  // main function is the starting point of the app or project where execution start and we can add values into List<String> arguments from console 
 }
