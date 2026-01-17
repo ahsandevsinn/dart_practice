@@ -1,22 +1,12 @@
 class Variables {
   void display() {
-    print(StaticCar.wheels);
-    dynamic age = 30;
+    var name = "Ahsan";
+    Object age = 3;
+    age = "Ajsa";
+    age = 3.9;
+    age = true;
     print(age);
-    age = "Ahsan";
-    print(age);
-    final dateTIme = DateTime.now();
-    print(dateTIme);
-    const dateObj = "Oct 5";
-    print(dateObj);
-    var ageNu = 39;
-    print(ageNu);
-    // ageNu =  "Ahsan";
-    // ageNu = 3.9;
-
+    //object data type may bhi multiple values store hosakti hain same variable ki agansit but ye safe nai hai or production or modern day ki hisab say bhi theak nai hi iski wajha say app crashes atay hain isliye original data types use karni chiye
+    print(name);
   }
-}
-
-class StaticCar {
-  static int wheels = 4;
 }
