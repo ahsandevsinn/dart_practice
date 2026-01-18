@@ -19,5 +19,6 @@ void main(List<String> arguments){
   // print("Hello World $arguments");
   // main function is the starting point of the app or project where execution start and we can add values into List<String> arguments from console 
 
-Variables().display();
+// Variables().display();
+   NullSafety.nullSafety();
 }
