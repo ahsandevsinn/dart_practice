@@ -34,8 +34,11 @@ class NullSafety {
 
 
 // Declare a nullable String? and assign a value.
-String? name = "Ahsan";
-print(name);
+// String? name = "Ahsan";
+// print(name);
+// Print a nullable variable safely using ?.
+String? name;
+print(name?.length);
   }
 
 }
