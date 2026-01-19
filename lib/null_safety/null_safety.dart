@@ -31,6 +31,11 @@ class NullSafety {
 // ❓ Error kyu aayega?
 // ❓ Isko kaise fix karoge?
 // ans kue ki value intilize nai ki isko vqalue initialize karki fix karsaktay hain 
+
+
+// Declare a nullable String? and assign a value.
+String? name = "Ahsan";
+print(name);
   }
 
 }
