@@ -46,9 +46,15 @@ class NullSafety {
 // // iska matlab ye hai ki age null nai hogi or ager null hogai to runtime per null or app crash hojayi gi
 
 // Initialize a variable with late and assign later.
- late String name;
- name = "Ahsan";
- print(name);
+//  late String name;
+//  name = "Ahsan";
+//  print(name);
+
+
+// Use null-aware assignment ??=.
+String? name;
+print(name ??= "Ahsan");
+// Null-aware is liye use hota hai ki ager variable ki value null ho to ye same variable may value assign kardeyta hai
 
   }
 
