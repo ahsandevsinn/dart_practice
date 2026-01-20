@@ -37,8 +37,13 @@ class NullSafety {
 // String? name = "Ahsan";
 // print(name);
 // Print a nullable variable safely using ?.
-String? name;
-print(name?.length);
+// String? name;
+// print(name?.length);
+
+// Use ! to force unwrap a nullable int.
+int? age;
+print(age!.toInt());
+// iska matlab ye hai ki age null nai hogi or ager null hogai to runtime per null or app crash hojayi gi
   }
 
 }
