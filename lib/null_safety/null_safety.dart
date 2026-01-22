@@ -62,9 +62,15 @@ class NullSafety {
 // print(name ?? "Ahsan");
 
 // Use null-aware operator ?? to provide default value.
-String? firstName;
-String? fullName = "Ahsan";
-print(firstName ?? fullName);
+// String? firstName;
+// String? fullName = "Ahsan";
+// print(firstName ?? fullName);
+
+// Use ??= to assign default if null.
+String? name;
+String? fN = "Ahsan";
+ name ??= fN;
+print(name);
   }
 
 }
