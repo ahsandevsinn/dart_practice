@@ -57,9 +57,14 @@ class NullSafety {
 // // Null-aware is liye use hota hai ki ager variable ki value null ho to ye same variable may value assign kardeyta hai
 
 
+// // Use null-aware operator ?? to provide default value.
+// String? name;
+// print(name ?? "Ahsan");
+
 // Use null-aware operator ?? to provide default value.
-String? name;
-print(name ?? "Ahsan");
+String? firstName;
+String? fullName = "Ahsan";
+print(firstName ?? fullName);
   }
 
 }
