@@ -67,10 +67,14 @@ class NullSafety {
 // print(firstName ?? fullName);
 
 // Use ??= to assign default if null.
-String? name;
-String? fN = "Ahsan";
- name ??= fN;
-print(name);
+// String? name;
+// String? fN = "Ahsan";
+//  name ??= fN;
+// print(name);
+
+// Check if a nullable boolean is true using == true.
+bool? isMarried = true;
+print(isMarried == true);
   }
 
 }
