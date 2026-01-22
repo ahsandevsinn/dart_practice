@@ -73,8 +73,12 @@ class NullSafety {
 // print(name);
 
 // Check if a nullable boolean is true using == true.
-bool? isMarried = true;
-print(isMarried == true);
+// bool? isMarried = true;
+// print(isMarried == true);
+
+// Nullable int addition safely using ?? 0.
+int? age ;
+print(age ?? 0);
   }
 
 }
