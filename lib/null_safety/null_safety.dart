@@ -77,8 +77,16 @@ class NullSafety {
 // print(isMarried == true);
 
 // Nullable int addition safely using ?? 0.
-int? age ;
-print(age ?? 0);
+// int? age ;
+// print(age ?? 0);
+
+// Nullable String concatenation safely.
+// String? name;
+// print("Name ${name ?? "Ahsan"}");
+
+// Nullable list, safely check its length.
+List<String>? names ;
+print(names?.length);
   }
 
 }
