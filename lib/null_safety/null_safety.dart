@@ -85,8 +85,12 @@ class NullSafety {
 // print("Name ${name ?? "Ahsan"}");
 
 // Nullable list, safely check its length.
-List<String>? names ;
-print(names?.length);
+// List<String>? names ;
+// print(names?.length);
+
+// Access nullable map value safely.
+Map<String,dynamic>? user = {"name": "Ahsan"};
+print(user?['name']);
   }
 
 }
