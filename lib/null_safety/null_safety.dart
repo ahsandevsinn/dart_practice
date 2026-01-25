@@ -20,18 +20,17 @@ class NullSafety {
 
 // What does the ! operator do in Dart?
 // ! null check operator jab use kartay hain ki ap compiler ko kehtay ho ki ye variable null nai hoga to compiler isko ignore kardeyta hai but ager run timer per variable may value null hogayi to null or app crashes houngin
- 
+
 //  Explain the difference between ?. and !
 // ?. is liye use hota hai ki ye phalay variable ka check karta hai ki ye nullable bhi hosakta hai then uski property ko access karta hai and ! check operator compiler ko variable ki value ignore karnay ko kehta hao but ager runtimer per variable  null hojayi to app crash hojayi gi
- 
+
 //  Q1️⃣
 // String name;
 // // name = "Ah";
 // print(name);
 // ❓ Error kyu aayega?
 // ❓ Isko kaise fix karoge?
-// ans kue ki value intilize nai ki isko vqalue initialize karki fix karsaktay hain 
-
+// ans kue ki value intilize nai ki isko vqalue initialize karki fix karsaktay hain
 
 // Declare a nullable String? and assign a value.
 // String? name = "Ahsan";
@@ -50,12 +49,10 @@ class NullSafety {
 //  name = "Ahsan";
 //  print(name);
 
-
 // Use null-aware assignment ??=.
 // String? name;
 // print(name ??= "Ahsan");
 // // Null-aware is liye use hota hai ki ager variable ki value null ho to ye same variable may value assign kardeyta hai
-
 
 // // Use null-aware operator ?? to provide default value.
 // String? name;
@@ -89,8 +86,22 @@ class NullSafety {
 // print(names?.length);
 
 // Access nullable map value safely.
-Map<String,dynamic>? user = {"name": "Ahsan"};
-print(user?['name']);
-  }
+// Map<String,dynamic>? user = {"name": "Ahsan"};
+// print(user?['name']);
 
+// Use null-aware index on a nullable list.
+// List<String?> names = ["a",null,"b"];
+// print(names[0]); // a
+// print(names[1]); // null
+// print(names[2]); // b
+
+// Conditional print if variable is not null.
+    String? name = "Abdul";
+    if (name != null) {
+      print(name.length);
+      print("Variable is not null");
+    } else {
+      print("Variable is null");
+    }
+  }
 }
