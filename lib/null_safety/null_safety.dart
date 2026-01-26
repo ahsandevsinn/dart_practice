@@ -109,12 +109,23 @@ class NullSafety {
     // print("${name ?? "Ahsan"}"); // Prints "Ahsan" if name is null
 
     // Nullable double safely converted to int.
-    double? height = 3.0;
-    if (height != null) {
-      print(height.toInt());
-    } else {
-      print("height is null");
+    // double? height = 3.0;
+    // if (height != null) {
+    //   print(height.toInt());
+    // } else {
+    //   print("height is null");
+    // }
+
+    // Assign nullable int to another nullable int.
+    int? age = 10;
+    int? age2 ;
+    if (age != null) {
+      age2 = age;
+      print(age2);
+    }else{
+      print("age is null");
     }
-    
+
+
   }
 }
