@@ -103,8 +103,18 @@ class NullSafety {
     // } else {
     //   print("Variable is null");
     // }
+
     // Nullable variable inside string interpolation.
-    String? name;
-    print("${name ?? "Ahsan"}");
+    // String? name;
+    // print("${name ?? "Ahsan"}"); // Prints "Ahsan" if name is null
+
+    // Nullable double safely converted to int.
+    double? height = 3.0;
+    if (height != null) {
+      print(height.toInt());
+    } else {
+      print("height is null");
+    }
+    
   }
 }
