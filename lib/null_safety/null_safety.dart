@@ -127,9 +127,15 @@ class NullSafety {
     // }
 
     // Nullable variable in arithmetic with default.
-    int? a ;
-    int? b = 3;
-    print((a??0)+(b??0));
+    // int? a ;
+    // int? b = 3;
+    // print((a??0)+(b??0));
+
+    // Nullable list add element safely.
+    List<String>? names;
+    names ??= [];
+    names.add("Ahsan");
+    print(names);
 
 
   }
