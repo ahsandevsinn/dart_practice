@@ -96,12 +96,15 @@ class NullSafety {
 // print(names[2]); // b
 
 // Conditional print if variable is not null.
-    String? name = "Abdul";
-    if (name != null) {
-      print(name.length);
-      print("Variable is not null");
-    } else {
-      print("Variable is null");
-    }
+    // String? name = "Abdul";
+    // if (name != null) {
+    //   print(name.length);
+    //   print("Variable is not null");
+    // } else {
+    //   print("Variable is null");
+    // }
+    // Nullable variable inside string interpolation.
+    String? name;
+    print("${name ?? "Ahsan"}");
   }
 }
