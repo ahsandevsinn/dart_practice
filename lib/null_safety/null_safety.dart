@@ -117,14 +117,19 @@ class NullSafety {
     // }
 
     // Assign nullable int to another nullable int.
-    int? age = 10;
-    int? age2 ;
-    if (age != null) {
-      age2 = age;
-      print(age2);
-    }else{
-      print("age is null");
-    }
+    // int? age = 10;
+    // int? age2 ;
+    // if (age != null) {
+    //   age2 = age;
+    //   print(age2);
+    // }else{
+    //   print("age is null");
+    // }
+
+    // Nullable variable in arithmetic with default.
+    int? a ;
+    int? b = 3;
+    print((a??0)+(b??0));
 
 
   }
