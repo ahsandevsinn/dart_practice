@@ -132,11 +132,17 @@ class NullSafety {
     // print((a??0)+(b??0));
 
     // Nullable list add element safely.
-    List<String>? names;
-    names ??= [];
-    names.add("Ahsan");
-    print(names);
+    // List<String>? names;
+    // names ??= [];
+    // names.add("Ahsan");
+    // print(names);
 
-
+    // Nullable set add element safely.
+    Set<String>? name;
+    name ??= {};
+    name.add("Abdul");
+    print(name);
+    
+   
   }
 }
