@@ -144,10 +144,18 @@ class NullSafety {
     // print(name);
 
     // Nullable string to uppercase safely.
-    String? name;
-    name ??= "Ahsan";
-    print(name.toUpperCase());
+    // String? name;
+    // name ??= "Ahsan";
+    // print(name.toUpperCase());
+
+    // Nullable string trim safely.
+    //     String? name;
+    // name ??= "Ahsan   ";
+    // print(name.trim());
     
-   
+
+    // Nullable string split safely.
+  String data = "apple,banana,orange";
+print(data.split(',')); 
   }
 }
