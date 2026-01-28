@@ -138,10 +138,15 @@ class NullSafety {
     // print(names);
 
     // Nullable set add element safely.
-    Set<String>? name;
-    name ??= {};
-    name.add("Abdul");
-    print(name);
+    // Set<String>? name;
+    // name ??= {};
+    // name.add("Abdul");
+    // print(name);
+
+    // Nullable string to uppercase safely.
+    String? name;
+    name ??= "Ahsan";
+    print(name.toUpperCase());
     
    
   }
