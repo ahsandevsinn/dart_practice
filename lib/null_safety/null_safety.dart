@@ -157,5 +157,10 @@ class NullSafety {
     // Nullable string split safely.
   String data = "apple,banana,orange";
 print(data.split(',')); 
+
+// Nullable boolean negation safely.
+bool? isMarried ;
+isMarried ??= false;
+print(isMarried);
   }
 }
