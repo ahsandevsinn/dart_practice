@@ -155,12 +155,17 @@ class NullSafety {
     
 
     // Nullable string split safely.
-  String data = "apple,banana,orange";
-print(data.split(',')); 
+//   String data = "apple,banana,orange";
+// print(data.split(',')); 
 
-// Nullable boolean negation safely.
-bool? isMarried ;
-isMarried ??= false;
-print(isMarried);
+// // Nullable boolean negation safely.
+// bool? isMarried ;
+// isMarried ??= false;
+// print(isMarried);
+
+// Nullable int multiplication safely.
+int? a = 4;
+int? b = 4;
+print((a ?? 0)*(b ?? 0));
   }
 }
