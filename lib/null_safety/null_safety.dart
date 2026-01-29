@@ -164,8 +164,12 @@ class NullSafety {
 // print(isMarried);
 
 // Nullable int multiplication safely.
-int? a = 4;
-int? b = 4;
-print((a ?? 0)*(b ?? 0));
+// int? a = 4;
+// int? b = 4;
+// print((a ?? 0)*(b ?? 0));
+
+// Nullable variable with ternary operator.
+int? age = 20;
+print(age != null ? age : 0);
   }
 }
