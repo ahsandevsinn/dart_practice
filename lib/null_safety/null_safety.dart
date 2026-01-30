@@ -178,9 +178,19 @@ class NullSafety {
 // print(age.remove(0));
 
 // Nullable map add key-value safely.
-Map<String,dynamic>? user;
-user ??= {};
-user.addAll({"name":"Ahsan","Age":20,"Location":"Lahore"});
-print(user);
+// Map<String,dynamic>? user;
+// user ??= {};
+// user.addAll({"name":"Ahsan","Age":20,"Location":"Lahore"});
+// print(user);
+
+// Nullable variable check using if != null.
+String? name = "Ahsan";
+if (name != null) {
+  print(name.length ?? 0);
+  
+}else{
+  print("name is null");
+}
+
   }
 }
