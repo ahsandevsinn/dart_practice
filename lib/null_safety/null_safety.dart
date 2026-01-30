@@ -173,8 +173,14 @@ class NullSafety {
 // print(age != null ? age : 0);
 
 // Nullable list remove element safely.
-List<int>? age ;
-age ??= [1,3];
-print(age.remove(0));
+// List<int>? age ;
+// age ??= [1,3];
+// print(age.remove(0));
+
+// Nullable map add key-value safely.
+Map<String,dynamic>? user;
+user ??= {};
+user.addAll({"name":"Ahsan","Age":20,"Location":"Lahore"});
+print(user);
   }
 }
