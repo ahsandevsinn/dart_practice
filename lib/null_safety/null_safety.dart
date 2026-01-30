@@ -169,7 +169,12 @@ class NullSafety {
 // print((a ?? 0)*(b ?? 0));
 
 // Nullable variable with ternary operator.
-int? age = 20;
-print(age != null ? age : 0);
+// int? age = 20;
+// print(age != null ? age : 0);
+
+// Nullable list remove element safely.
+List<int>? age ;
+age ??= [1,3];
+print(age.remove(0));
   }
 }
