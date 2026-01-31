@@ -199,5 +199,10 @@ class NullSafety {
       print("a+b sum ${a+b}");
      
     }
+    // Function returning nullable String.
+    static String? name(String? n){
+      return n ?? "";
+
+    }
 }
     
