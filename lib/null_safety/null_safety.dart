@@ -191,18 +191,32 @@ class NullSafety {
     // }
 
     // Function with nullable int parameter.
-   sum(10, 20);
+    // sum(10, 20);
+  
+
+
+  String? length = nameLength("Ahsan Khan");
+  print(length);
+  // Optional parameter ke sath ?. use karke hum safely properties/methods access kar sakte hain bina null exception ke.
+
   }
-  static  void sum(int? a,int? b){
-      a ??= 0;
-      b ??= 0;
-      print("a+b sum ${a+b}");
-     
-    }
-    // Function returning nullable String.
-    static String? name(String? n){
-      return n ?? "";
+  static void sum(int? a, int? b) {
+    a ??= 0;
+    b ??= 0;
+    print("a+b sum ${a + b}");
+  }
+
+  // Function returning nullable String.
+  static String? name(String? n) {
+    return n ?? "";
+  }
+
+    // Optional parameter with ?.
+    static String? nameLength(String? name){
+     return name?.length.toString();
 
     }
+
+
+
 }
-    
