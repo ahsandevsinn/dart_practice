@@ -152,11 +152,10 @@ class NullSafety {
     //     String? name;
     // name ??= "Ahsan   ";
     // print(name.trim());
-    
 
     // Nullable string split safely.
 //   String data = "apple,banana,orange";
-// print(data.split(',')); 
+// print(data.split(','));
 
 // // Nullable boolean negation safely.
 // bool? isMarried ;
@@ -184,13 +183,21 @@ class NullSafety {
 // print(user);
 
 // Nullable variable check using if != null.
-String? name = "Ahsan";
-if (name != null) {
-  print(name.length ?? 0);
-  
-}else{
-  print("name is null");
-}
+    // String? name = "Ahsan";
+    // if (name != null) {
+    //   print(name.length ?? 0);
+    // } else {
+    //   print("name is null");
+    // }
 
+    // Function with nullable int parameter.
+   sum(10, 20);
   }
+  static  void sum(int? a,int? b){
+      a ??= 0;
+      b ??= 0;
+      print("a+b sum ${a+b}");
+     
+    }
 }
+    
