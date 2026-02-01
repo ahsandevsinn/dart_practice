@@ -242,15 +242,33 @@ class NullSafety {
 // });
 
 // Nullable boolean in if-else.
-bool? isFocus;
-isFocus ??= false;
-if (isFocus == true) {
-  print("User is Focused");
-}else{
-  print("User is not Focused");
+// bool? isFocus;
+// isFocus ??= false;
+// if (isFocus == true) {
+//   print("User is Focused");
+// }else{
+//   print("User is not Focused");
 
-}
+// }
 
+// Nullable variable in while loop.
+// int? i;
+// i ??= 0;
+// first approach
+// while((i??0) < 10){
+//   print(i);
+//   if (i!=null) {
+//     i++;
+//   }
+// }
+// second approach
+
+// while(i! < 10){
+//   print(i);
+
+//     i++;
+ 
+// }
 
 
 
