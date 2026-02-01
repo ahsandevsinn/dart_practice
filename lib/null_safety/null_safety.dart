@@ -203,6 +203,12 @@ class NullSafety {
 // int? age; 
 // getAge(age);
 
+// Nullable string length safely.
+String? name;
+name ??= "Ahsan";
+name = "Khan";
+print(name.length);
+
 
 
   }
@@ -238,8 +244,10 @@ class NullSafety {
 //   }
 
 // Nullable variable passed to function safely.
-static getAge(int? age){
-  print(age ?? 20);
-}
+// static getAge(int? age){
+//   print(age ?? 20);
+// }
+
+
 
 }
