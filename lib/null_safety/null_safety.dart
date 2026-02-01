@@ -210,9 +210,18 @@ class NullSafety {
 // print(name.length);
 
 // Nullable string comparison safely.
-String? a;
-String? b;
-print((a??"Ahsan") == (b??"Khan"));
+// String? a;
+// String? b;
+// print((a??"Ahsan") == (b??"Khan"));
+
+
+// Nullable int comparison safely.
+int? a;
+int? b;
+a= 30;
+b= 49;
+print((a??0)==(b??0));
+
 
 
 
