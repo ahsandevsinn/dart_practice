@@ -200,8 +200,8 @@ class NullSafety {
   // // Optional parameter ke sath ?. use karke hum safely properties/methods access kar sakte hain bina null exception ke.
 //  getName(name: "Ahsan Khan");
 
-
-getAge();
+// int? age; 
+// getAge(age);
 
 
 
@@ -230,11 +230,16 @@ getAge();
 // }
 
 
-static int? age;
-// Nullable variable assignment inside function.
-  static getAge(){
-    age ??= 20;
-    print(age);
-  }
+// static int? age;
+// // Nullable variable assignment inside function.
+//   static getAge(){
+//     age ??= 20;
+//     print(age);
+//   }
+
+// Nullable variable passed to function safely.
+static getAge(int? age){
+  print(age ?? 20);
+}
 
 }
