@@ -232,6 +232,15 @@ class NullSafety {
 // }
 // // Nullable list ko iterate karne se pehle ??= se initialize karna safest approach hoti hai.
 
+// Nullable map iteration safely.
+Map<String, dynamic>? persons;
+persons ??= {};
+persons.addEntries({"name": "Ahsan"}.entries);
+persons.addEntries({"age": "20"}.entries);
+persons.forEach((k,v){
+  print("$k $v");
+});
+
 
 
 
