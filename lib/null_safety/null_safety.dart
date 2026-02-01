@@ -216,11 +216,21 @@ class NullSafety {
 
 
 // Nullable int comparison safely.
-int? a;
-int? b;
-a= 30;
-b= 49;
-print((a??0)==(b??0));
+// int? a;
+// int? b;
+// a= 30;
+// b= 49;
+// print((a??0)==(b??0));
+
+
+// // Nullable list iteration safely.
+// List<String>? names;
+// names ??= [];
+// names.add("Ahsan");
+// for(var i = 0; i < names.length; i++){
+//   print(" value is ${names[i]}");
+// }
+// // Nullable list ko iterate karne se pehle ??= se initialize karna safest approach hoti hai.
 
 
 
