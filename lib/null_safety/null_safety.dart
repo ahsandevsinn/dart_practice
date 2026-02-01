@@ -195,28 +195,35 @@ class NullSafety {
   
 
 
-  String? length = nameLength("Ahsan Khan");
-  print(length);
-  // Optional parameter ke sath ?. use karke hum safely properties/methods access kar sakte hain bina null exception ke.
+  // String? length = nameLength("Ahsan Khan");
+  // print(length);
+  // // Optional parameter ke sath ?. use karke hum safely properties/methods access kar sakte hain bina null exception ke.
+ getName(name: "Ahsan Khan");
+
+
 
   }
-  static void sum(int? a, int? b) {
-    a ??= 0;
-    b ??= 0;
-    print("a+b sum ${a + b}");
-  }
+  // static void sum(int? a, int? b) {
+  //   a ??= 0;
+  //   b ??= 0;
+  //   print("a+b sum ${a + b}");
+  // }
 
-  // Function returning nullable String.
-  static String? name(String? n) {
-    return n ?? "";
-  }
+  // // Function returning nullable String.
+  // static String? name(String? n) {
+  //   return n ?? "";
+  // }
 
-    // Optional parameter with ?.
-    static String? nameLength(String? name){
-     return name?.length.toString();
+    // // Optional parameter with ?.
+    // static String? nameLength(String? name){
+    //  return name?.length.toString();
 
-    }
+    // }
 
-
+// Named nullable parameter in function.
+static void getName({String? name}){
+  //{} curly braces dart may named parameter ki liye use hoti hai bina braces ki parameter positional parameter hotay hain
+  print(name ?? "Ahsan");
+}
 
 }
