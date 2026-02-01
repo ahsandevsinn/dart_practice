@@ -233,13 +233,23 @@ class NullSafety {
 // // Nullable list ko iterate karne se pehle ??= se initialize karna safest approach hoti hai.
 
 // Nullable map iteration safely.
-Map<String, dynamic>? persons;
-persons ??= {};
-persons.addEntries({"name": "Ahsan"}.entries);
-persons.addEntries({"age": "20"}.entries);
-persons.forEach((k,v){
-  print("$k $v");
-});
+// Map<String, dynamic>? persons;
+// persons ??= {};
+// persons.addEntries({"name": "Ahsan"}.entries);
+// persons.addEntries({"age": "20"}.entries);
+// persons.forEach((k,v){
+//   print("$k $v");
+// });
+
+// Nullable boolean in if-else.
+bool? isFocus;
+isFocus ??= false;
+if (isFocus == true) {
+  print("User is Focused");
+}else{
+  print("User is not Focused");
+
+}
 
 
 
