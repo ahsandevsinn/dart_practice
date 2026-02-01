@@ -204,10 +204,15 @@ class NullSafety {
 // getAge(age);
 
 // Nullable string length safely.
-String? name;
-name ??= "Ahsan";
-name = "Khan";
-print(name.length);
+// String? name;
+// name ??= "Ahsan";
+// name = "Khan";
+// print(name.length);
+
+// Nullable string comparison safely.
+String? a;
+String? b;
+print((a??"Ahsan") == (b??"Khan"));
 
 
 
